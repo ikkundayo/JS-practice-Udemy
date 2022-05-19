@@ -1,0 +1,12 @@
+.parent {
+  color: blue;
+
+  & > div {
+    color: purple;
+
+    & > div {
+      color: black;
+    }
+  }
+}
+

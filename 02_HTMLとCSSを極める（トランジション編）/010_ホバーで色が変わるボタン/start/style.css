@@ -14,8 +14,8 @@
   transition: all 0.3s;
 }
 
-.btn.float:hover {
-  -webkit-box-shadow: 6px 5px 10px #00000085;
-          box-shadow: 6px 5px 10px #00000085;
+.btn:hover {
+  background-color: black;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
