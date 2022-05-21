@@ -1,12 +1,15 @@
 @charset "UTF-8";
 .parent {
+  text-align: center;
+  letter-spacing: -6px;
   background-color: #51dada;
   height: 600px;
   width: 100%;
 }
 
 .child {
-  background-color: orange;
+  display: inline-block;
+  background-color: #c6bcaa;
   width: 100px;
   height: 100px;
   font-weight: 600;
