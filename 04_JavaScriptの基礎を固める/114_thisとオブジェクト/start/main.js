@@ -10,6 +10,13 @@ const obj = {
     }
 }
 
+// const window = {
+//     setTimeout: function(fn) {
+//         fn();
+//     }
+// }
+
+
 class MyObj {
     constructor() {
         this.first_name = 'Mafia';

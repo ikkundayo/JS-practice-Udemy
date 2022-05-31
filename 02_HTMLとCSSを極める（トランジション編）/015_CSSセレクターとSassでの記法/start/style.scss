@@ -1,12 +1,15 @@
 .parent {
   color: blue;
 
-  & > div {
+  & .element {
     color: purple;
 
-    & > div {
+    &.second-child {
       color: black;
     }
   }
 }
 
+.child {
+  color: red;
+}

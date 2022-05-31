@@ -2,11 +2,15 @@
   color: blue;
 }
 
-.parent > div {
+.parent .element {
   color: purple;
 }
 
-.parent > div > div {
+.parent .element.second-child {
   color: black;
+}
+
+.child {
+  color: red;
 }
 /*# sourceMappingURL=style.css.map */
